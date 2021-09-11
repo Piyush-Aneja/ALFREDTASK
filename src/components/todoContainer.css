@@ -1,0 +1,48 @@
+.Todocontainer {
+  min-height: 63vh;
+  margin-top: 50px;
+
+  background-color: orange;
+  max-width: 500px;
+  position: relative;
+
+  margin: auto;
+  padding: 10px;
+
+  height: 100%;
+  border: 1px solid black;
+
+  border-radius: 20px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.resetBtn {
+  position: relative;
+  left: 39%;
+  width: 68px;
+  height: 30px;
+  margin: 5px 5px 20px 0px;
+  border-radius: 10px;
+
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-plus-circle {
+  position: relative;
+  left: 39%;
+  cursor: pointer;
+  right: 11.5%;
+  margin-top: 30px;
+}
+
+.fa-plus-circle:hover {
+  transform: scale(1.2);
+}

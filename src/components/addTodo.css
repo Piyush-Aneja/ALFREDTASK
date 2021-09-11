@@ -1,0 +1,21 @@
+.TodoListInput {
+  width: 245px;
+
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.submitBtn {
+  background-color: green;
+  width: 60px;
+  margin: 0px;
+  height: 35px;
+  clear: left;
+  position: relative;
+  left: 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
