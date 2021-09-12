@@ -49,18 +49,20 @@ export const Addtodo = () => {
   }
   return (
     <div>
-      <form onSubmit={formsubmit}>
-        <input
-          className="TodoListInput"
-          type="text"
-          value={userinputDesc}
-          name="desc"
-          id="titleInp"
-          placeholder="Add your todo list"
-          onChange={(e) => setDesc(e.target.value)}
-        />
+      <form onSubmit={formsubmit} autoComplete="off">
+        <div id="formContainer">
+          <input
+            className="TodoListInput"
+            type="text"
+            value={userinputDesc}
+            name="desc"
+            id="titleInp"
+            placeholder="Add your todo list"
+            onChange={(e) => setDesc(e.target.value)}
+          />
 
-        <button className="submitBtn">Submit</button>
+          <button className="submitBtn">Submit</button>
+        </div>
       </form>
     </div>
   );

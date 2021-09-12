@@ -1,5 +1,6 @@
 .TodoListInput {
-  width: 245px;
+  /* width: 245px; */
+  width: 72%;
 
   height: 35px;
   border: 2px solid black;
